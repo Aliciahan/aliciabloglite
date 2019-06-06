@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Google",
+    "desc": "Google Search",
+    "url": "https://www.google.fr"
+  },
+  {
+    "title": "DuckDuckSearch",
+    "desc": "DuckDuck Search",
+    "url": "https://duckduckgo.com/"
+  }
+]

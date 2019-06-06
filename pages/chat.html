@@ -1,0 +1,32 @@
+---
+layout: page
+isPage: true
+title: 留言板
+css: [blog.css]
+js: [blog.js, md5.js, bmob.js, chat.js,plugin.js]
+---
+
+<div class="container page-chat animation-fade-up">
+  <h1 class="page-title" id="{{ page.title }}">{{ page.title }}</h1>
+  <form>
+    <input type="text" placeholder="Name" autocomplete="off" />
+    <input type="email" placeholder="Email" autocomplete="off" />
+    <input type="text" placeholder="Site(http://)" autocomplete="off" />
+    <textarea rows="4" placeholder="Within 200 Words"></textarea>
+    <span class="select-none page-chat-submit">Submits</span>
+  </form>
+  <ul class="page-chat-list"></ul>
+  <div class="page-chat-load-container">
+    <span class="page-chat-load select-none">Loading</span>
+  </div>
+  <div class="page-chat-list-templet" style="display:none;">
+    <li>
+      <div class="info">
+        <img class="head" {blank}src="http://www.gravatar.com/avatar/{emailMD5}" />
+        <a class="name name-{hasSite}" target="_blank" href="{site}">{name}</a>
+        <div class="date"><span>{date}</span></div>
+      </div>
+      <div class="content">{content}</div>
+    </li>
+  </div>
+</div>
