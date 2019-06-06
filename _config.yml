@@ -36,3 +36,5 @@ kramdown:
   input: GFM
 
 exclude: ['CNAME', 'README.md', 'build-tool']
+
+theme: jekyll-theme-architect
