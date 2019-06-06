@@ -37,4 +37,4 @@ kramdown:
 
 exclude: ['CNAME', 'README.md', 'build-tool']
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
